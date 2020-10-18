@@ -9,7 +9,7 @@ include 'config.php';
 $username = $_POST['username'];
 $password = $_POST['password'];
 $sebelum=$_SERVER['HTTP_REFERER'];
-// mmm
+
 // menyeleksi data user dengan username dan password yang sesuai
 $login = mysqli_query($db,"SELECT * from admin where username='$username' and password='$password'");
 // menghitung jumlah data yang ditemukan
