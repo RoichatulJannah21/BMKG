@@ -1,6 +1,5 @@
 <?php
-    include 'config.php';
-    include "excel_reader2.php";
+    include "config.php","excel_reader2.php";
     ?>
 
 <html>
