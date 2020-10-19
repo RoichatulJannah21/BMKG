@@ -1,8 +1,6 @@
-<?php
-    include "config.php";
-    include "excel_reader2.php";
-?>
-
+<?php include "config.php";
+    include "excel_reader2.php";?>
+<!-- //lin//k -->
 <html>
 <head>
     <title>Uploading...</title>
