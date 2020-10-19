@@ -8,7 +8,7 @@ include 'config.php';
 // menangkap data yang dikirim dari form login
 $username = $_POST['username'];
 $password = $_POST['password'];
-$sebelum=$_SERVER['HTTP_REFERER'];
+$sebelum=$_SERVER['HTTP_REFERER']
 
 // menyeleksi data user dengan username dan password yang sesuai
 $login = mysqli_query($db,"SELECT * from admin where username='$username' and password='$password'");
