@@ -6,8 +6,8 @@ session_start();
 include 'config.php'
 
 // menangkap data yang dikirim dari form login
-$username = $_POST['username'];
-$password = $_POST['password'];
+$username = $_GET['username'];
+$password = $_GET['password'];
 $sebelum=$_SERVER['HTTP_REFERER'];
 
 // menyeleksi data user dengan username dan password yang sesuai
