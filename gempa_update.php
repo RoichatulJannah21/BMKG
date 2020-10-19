@@ -1,6 +1,5 @@
 <?php
 include 'config.php';
-
 $idgempa = isset($_POST['idgempa']);
 $date  = isset($_POST['date']);
 $time = isset($_POST['time']);
