@@ -1,6 +1,6 @@
 <?php include "config.php",
     "excel_reader2.php";?>
-<!-- pliss -->
+
 <html>
 <head>
     <title>Uploading...</title>
