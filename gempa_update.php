@@ -1,22 +1,22 @@
 <?php
 include 'config.php';
-$idgempa = isset($_POST['idgempa']);
-$date  = isset($_POST['date']);
-$time = isset($_POST['time']);
-$lat  = isset($_POST['lat']);
-$lon  = isset($_POST['lon']);
-$depth= isset($_POST['depth']);
-$mag  = isset($_POST['mag']);
-$lokasi_1  = isset($_POST['lokasi_1']);
-$lokasi_2  = isset($_POST['lokasi_2']);
-$felt_1  =  isset($_POST['felt_1']);
-$felt_2  =  isset($_POST['felt_2']);
-$akibat_1  = isset($_POST['akibat_1']);
-$akibat_2  = isset($_POST['akibat_2']);
-$tsun  =  isset($_POST['tsun']);
-$tsunami  = isset($_POST['tsunami']);
-$source_1  = isset($_POST['source_1']);
-$source_2  = isset($_POST['source_2']);
+$idgempa = isset(filter_input(INPUT_POST, 'idgempa'));
+$date  = isset(filter_input(INPUT_POST, 'date'));
+$time = isset(filter_input(INPUT_POST, 'time'));
+$lat  = isset(filter_input(INPUT_POST, 'lat'));
+$lon  = isset(filter_input(INPUT_POST, 'lon'));
+$depth= isset(filter_input(INPUT_POST, 'depth'));
+$mag  = isset(filter_input(INPUT_POST, 'mag'));
+$lokasi_1  = isset(filter_input(INPUT_POST, 'lokasi_1'));
+$lokasi_2  = isset(filter_input(INPUT_POST, 'lokasi_2'));
+$felt_1  =  isset(filter_input(INPUT_POST, 'felt_1'));
+$felt_2  =  isset(filter_input(INPUT_POST, 'felt_2'));
+$akibat_1  = isset(filter_input(INPUT_POST, 'akibat_1'));
+$akibat_2  = isset(filter_input(INPUT_POST, 'akibat_2'));
+$tsun  =  isset(filter_input(INPUT_POST, 'tsun'));
+$tsunami  = isset(filter_input(INPUT_POST, 'tsunami'));
+$source_1  = isset(filter_input(INPUT_POST, 'source_1'));
+$source_2  = isset(filter_input(INPUT_POST, 'source_2'));
 
 mysqli_query($db,"UPDATE gempa SET date='$date',
                                     time='$time',
