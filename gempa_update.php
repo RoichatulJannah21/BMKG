@@ -2,7 +2,7 @@
 include 'config.php';
 
 $idgempa = isset($_POST['idgempa']);
-$date  = $_POST['date'];
+$date  = isset($_POST['date']);
 $time = $_POST['time'];
 $lat  = $_POST['lat'];
 $lon  = $_POST['lon'];
