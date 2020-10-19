@@ -1,7 +1,7 @@
 <?php
 include 'config.php';
 
-$idgempa = isset($_POST['idgempa'];)
+$idgempa = isset($_POST['idgempa']);
 $date  = $_POST['date'];
 $time = $_POST['time'];
 $lat  = $_POST['lat'];
