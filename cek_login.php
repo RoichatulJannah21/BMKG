@@ -4,7 +4,7 @@ session_start();
 
 // menghubungkan php dengan koneksi database
 include 'config.php';
-
+//hai plis bantu dongg
 // menangkap data yang dikirim dari form login
 $username = $_POST['username'];
 $password = $_POST['password'];
